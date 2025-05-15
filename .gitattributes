@@ -1,2 +1,23 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyo
+
+# Ignorar entornos virtuales
+env/
+venv/
+ENV/
+VENV/
+
+# Ignorar archivos de VSCode
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración o temporales
+*.log
+*.sqlite3
